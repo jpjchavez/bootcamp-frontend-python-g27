@@ -1,0 +1,97 @@
+/*tipos de fuentes
+    font-family: "Montserrat", sans-serif;
+    font-family: "Fraunces", serif;
+*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+
+    display: flex;
+    justify-content: center; /* centrado horizontal*/
+    align-items: center; /* centrado vertical*/
+    height: 100dvh; /* centrado dinamico*/
+}
+h1,h2,p {
+    margin: 0;
+}
+main {
+    width: 650px;
+    min-height: 400px;
+    display: flex;
+    border-radius: 14px;
+    overflow: hidden; /* borrar fuera de bordes*/
+}
+.photo {
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+
+}
+.content {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 35px; /* marco */
+    display: flex; /* seccionamiento */
+    flex-direction: column; /* ordenamiento para espaciado */
+    gap: 14px;/* ancho margen */
+}
+
+.content h2 {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    text-transform: uppercase; /*mayuscula de letra*/
+    font-weight: 500; /*ancho de letra*/
+    letter-spacing: 7px;
+}
+
+.content h1{
+    color: hsl(158, 42%, 18%);
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.content p{
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.content div{
+    display: flex;
+    align-items: center;
+    gap: 14px; /* ancho separacion */
+}
+
+.content span{
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.content s{
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+.content button {
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    font-family: inherit; /* fuente innerente al principal*/
+    background-color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    padding: 14px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+    border-radius: 7px;
+    cursor: pointer;
+}
