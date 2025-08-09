@@ -16,7 +16,7 @@ h1,h2,p {
     margin: 0;
 }
 main {
-    width: 650px;
+    width: 600px;
     min-height: 400px;
     display: flex;
     border-radius: 14px;
@@ -26,12 +26,12 @@ main {
     background-image: url(./images/image-product-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 350px;
+    width: 300px;
 
 }
 .content {
     background-color: hsl(0, 0%, 100%);
-    width: 300px;
+    width: 230px;
     padding: 35px; /* marco */
     display: flex; /* seccionamiento */
     flex-direction: column; /* ordenamiento para espaciado */
